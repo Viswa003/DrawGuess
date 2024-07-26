@@ -1,0 +1,37 @@
+.drawing-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .canvas {
+    border: 1px solid #000;
+    background-color: #fff;
+  }
+  
+  .controls {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color-picker {
+    width: 50px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .clear-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .clear-button:hover {
+    background-color: #d32f2f;
+  }

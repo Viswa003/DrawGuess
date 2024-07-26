@@ -1,0 +1,31 @@
+.game-room {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .game-info {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .game-area {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .player-list {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .player-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .player-list li {
+    margin-bottom: 5px;
+  }
